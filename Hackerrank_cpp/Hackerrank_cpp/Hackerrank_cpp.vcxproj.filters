@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Print_the_Elements_of_a_Linked_List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Insert_a_Node_at_the_Tail_of_a_Linked_List.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
