@@ -146,8 +146,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Insert_a_Node_at_the_Tail_of_a_Linked_List.cpp" />
-    <ClCompile Include="Print_the_Elements_of_a_Linked_List.cpp" />
+    <ClCompile Include="Insert_a_node_at_a_specific_position_in_a_linked_list.cpp" />
+    <ClCompile Include="Insert_a_node_at_the_head_of_a_linked_list.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Insert_a_Node_at_the_Tail_of_a_Linked_List.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Print_the_Elements_of_a_Linked_List.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
