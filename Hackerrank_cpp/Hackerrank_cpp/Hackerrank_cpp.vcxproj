@@ -146,7 +146,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Insert_a_node_at_a_specific_position_in_a_linked_list.cpp" />
+    <ClCompile Include="Delete_a_Node.cpp" />
+    <ClCompile Include="Insert_a_node_at_a_specific_position_in_a_linked_list.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Insert_a_node_at_the_head_of_a_linked_list.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

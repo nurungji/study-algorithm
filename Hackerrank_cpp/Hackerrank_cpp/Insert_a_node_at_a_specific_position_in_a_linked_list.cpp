@@ -11,7 +11,7 @@ Node* InsertNth(Node *head, int data, int position)
 	Node *temp = new Node();
 	temp->data = data;
 	temp->next = NULL;
-		
+
 	if (head == NULL)
 	{
 		head = temp;
@@ -22,16 +22,16 @@ Node* InsertNth(Node *head, int data, int position)
 	if (position == 0)
 	{
 		temp->next = current;
-		current = temp;		
+		current = temp;
 		return current;
 	}
-	
+
 	for (int idx = 0; idx < (position - 1); idx++) {
 		current = current->next;
 	}
 	temp->next = current->next;
 	current->next = temp;
-		
+
 	return head;
 }
 
