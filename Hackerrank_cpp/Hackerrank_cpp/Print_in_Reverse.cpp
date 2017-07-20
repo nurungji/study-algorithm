@@ -7,6 +7,12 @@ struct Node
 	struct Node *next;
 };
 
+void ReversePrint1(Node *head)
+{
+	if (head == NULL) return;
+	ReversePrint1(head->next);
+	cout << head->data << endl;
+}
 
 void ReversePrint(Node *head)
 {
