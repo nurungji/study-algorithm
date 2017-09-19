@@ -294,3 +294,8 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
+*.vcxproj
+*.vcxproj.filters
+*.tlog
+*.log
+*.exe
